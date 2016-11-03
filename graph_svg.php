@@ -120,7 +120,7 @@
         }
         else
         {
-            $iw = 600 + $xrm + $xlm;
+            $iw = 650 + $xrm + $xlm;
             $ih = 200 + $ytm + $ybm;
         }
 

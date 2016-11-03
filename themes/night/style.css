@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {margin:0; padding:0;font-family: 'Open Sans', sans-serif;}
+body {background:#000; font-family:Verdana; font-size:14px;}
+#wrap {width: 980px; padding:2em 0; margin:0 auto;overflow:auto}
+#sidebar {width: 15%; float: left; padding: 1em; color: #fff; background-color: #111; border-right:5px solid #F2EA76;}
+#sidebar ul.iface {}
+#sidebar li.iface {list-style-type:none; color:#08BB08; text-transform:uppercase;font-weight:bold;}
+#sidebar a {color:#aaa;text-decoration:none; display:block;padding:0.7em 0}
+#sidebar ul.page {}
+#sidebar li.page {list-style-type:none;font-size:0.8em;font-weight:100;border-top:1px #222 solid;}
+#content {width:79%;float:left;margin-left:1em}
+#header {color:#F6CB7E;text-transform:uppercase; padding:1em; border-bottom: 1px #F6CB7E solid;border-left: 10px #F6CB7E solid}
+#footer {margin:1em 0;padding:1em;color: #fff; text-align: center; border-top:1px solid #474747; font-size:11px;}
+#footer a {color:#fff;}
+#main {padding: 1em;color: #fff;margin-top:1em;}
+#main td {padding:1em; font-size:0.9em}
+#main td.numeric_odd {text-align: right; color: #fff; background:#111;}
+#main td.numeric_even {text-align: right; color: #fff; background:#222;}
+#main td.label_odd {color: #fff; background:#111;}
+#main td.label_even {color: #fff; background:#222;}
+#main th.label {color: #3A3D42; padding:0.3em 0; border-bottom:4px solid #F36C60;text-transform:uppercase}
+#main caption {padding:0.1em 0;color:#F36C60; text-transform:uppercase;text-align:left; font-size:1.6em;font-weight:bold}

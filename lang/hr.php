@@ -30,10 +30,10 @@ $L['bytes in'] = 'bajta primljeno';
 $L['bytes out'] = 'bajta poslano';
 
 // date formats
-$L['datefmt_days'] = '%d. %m'; 
+$L['datefmt_days'] = '%d.%m.'; 
 $L['datefmt_days_img'] = '%d';
-$L['datefmt_months'] = '%m.%Y'; 
+$L['datefmt_months'] = '%m.%Y.'; 
 $L['datefmt_months_img'] = '%b';
-$L['datefmt_hours'] = '%H';  // %k
+$L['datefmt_hours'] = '%H:00';  // %k
 $L['datefmt_hours_img'] = '%H';
-$L['datefmt_top'] = '%d.%m.%Y';
+$L['datefmt_top'] = '%d.%m.%Y.';

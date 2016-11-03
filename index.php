@@ -186,7 +186,7 @@
     $graph_params = "if=$iface&amp;page=$page&amp;style=$style";
     if ($page != 's')
         if ($graph_format == 'svg') {
-	     print "<object type=\"image/svg+xml\" width=\"692\" height=\"297\" data=\"graph_svg.php?$graph_params\"></object>\n";
+	     print "<object type=\"image/svg+xml\" width=\"100%\" height=\"300\" data=\"graph_svg.php?$graph_params\"></object>\n";
         } else {
 	     print "<img src=\"graph.php?$graph_params\" alt=\"graph\"/>\n";
         }
